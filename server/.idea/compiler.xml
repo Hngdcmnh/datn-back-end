@@ -12,9 +12,13 @@
         <module name="api-gateway" />
         <module name="product-service" />
         <module name="user-service" />
+        <module name="storage-service" />
         <module name="notification-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cart-service" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -24,6 +28,7 @@
       <module name="notification-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
       <module name="registry" options="-parameters" />
+      <module name="storage-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

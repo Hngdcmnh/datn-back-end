@@ -60,7 +60,7 @@
             <artifactId>domain</artifactId>
             <version>0.0.1</version>
             <scope>system</scope>
-            <systemPath>/mnt/39178B285F7A3DB1/Code/Sudoo/server/libs/domain-0.0.1.jar</systemPath>
+            <systemPath>/Users/DATN/DATN/Sudoo/server/libs/domain-0.0.1.jar</systemPath>
         </dependency>
     </dependencies>
     <dependencyManagement>

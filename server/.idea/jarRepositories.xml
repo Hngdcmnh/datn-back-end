@@ -4,7 +4,17 @@
     <remote-repository>
       <option name="id" value="local-maven-repo" />
       <option name="name" value="Local Repository" />
+      <option name="url" value="file:/$USER_HOME$/.m2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="local-maven-repo" />
+      <option name="name" value="Local Repository" />
       <option name="url" value="file:~/.m2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Local Repository" />
+      <option name="name" value="Local Repository" />
+      <option name="url" value="file:/$MAVEN_REPOSITORY$" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -17,14 +27,14 @@
       <option name="url" value="file:~/.m2/repository" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="Local Repository" />
+      <option name="id" value="local-maven-repo" />
       <option name="name" value="Local Repository" />
       <option name="url" value="file:/$MAVEN_REPOSITORY$" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="local-maven-repo" />
       <option name="name" value="Local Repository" />
-      <option name="url" value="file:/$USER_HOME$/.m2/" />
+      <option name="url" value="file:/$USER_HOME$/.m2" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -37,14 +47,9 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="local-maven-repo" />
-      <option name="name" value="Local Repository" />
-      <option name="url" value="file:/$USER_HOME$/.m2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="local-maven-repo" />
-      <option name="name" value="Local Repository" />
-      <option name="url" value="file:/$MAVEN_REPOSITORY$" />
+      <option name="id" value="netflix-candidates" />
+      <option name="name" value="Netflix Candidates" />
+      <option name="url" value="https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates" />
     </remote-repository>
   </component>
 </project>
